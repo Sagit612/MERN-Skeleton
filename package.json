@@ -1,0 +1,13 @@
+{
+  "name": "AuthMERN",
+  "version": "1.0.0",
+  "repository": "https://github.com/Sagit612/MERN-Skeleton.git",
+  "author": "minhquoc1423@gmail.com <minhquoc1423@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    
+  }
+}
