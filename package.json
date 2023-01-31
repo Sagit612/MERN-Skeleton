@@ -4,10 +4,13 @@
   "repository": "https://github.com/Sagit612/MERN-Skeleton.git",
   "author": "minhquoc1423@gmail.com <minhquoc1423@gmail.com>",
   "license": "MIT",
+  "scripts": {},
   "dependencies": {
-
+    
   },
   "devDependencies": {
-    
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2"
   }
 }
