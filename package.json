@@ -7,6 +7,7 @@
   "scripts": {
     "development": "nodemon"
   },
+  "main": "./dist/server.generated.js",
   "dependencies": {
     "@hot-loader/react-dom": "16.13.0",
     "body-parser": "^1.20.1",
