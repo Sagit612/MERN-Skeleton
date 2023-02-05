@@ -1,16 +1,19 @@
-import express from 'express'
-import bodyParser from 'body-parser'
-import path from 'path'
-import cookieParser from 'cookie-parser'
-import compression from 'compression'
-import cors from 'cors'
-import helmet from 'helmet'
+import express from 'express';
+import bodyParser from 'body-parser';
+import path from 'path';
+import cookieParser from 'cookie-parser';
+import compression from 'compression';
+import cors from 'cors';
+import helmet from 'helmet';
 // import Template from '../template'
-import userRoutes from './routes/user.routes'
-import authRoutes from './routes/auth.routes'
+import userRoutes from './routes/user.routes';
+import authRoutes from './routes/auth.routes';
+import devBundle from './devBundle';
 
-const CURRENT_WORKING_DIR = process.cwd()
-const app = express()
+const CURRENT_WORKING_DIR = process.cwd();
+const app = express();
+
+devBundle.compile(app);
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
