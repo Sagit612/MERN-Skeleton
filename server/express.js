@@ -41,7 +41,7 @@ app.get('*', (req, res) => {
         sheets.collect(
             <StaticRouter location={req.url} context={context}>
                 <ThemeProvider theme={theme}>
-                    <MainRouter/>
+                    <MainRouter />
                 </ThemeProvider>
             </StaticRouter>
         )
